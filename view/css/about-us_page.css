@@ -1,0 +1,72 @@
+nav.container {
+    margin: 20px auto;
+}
+.hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/about-us.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.hero-content {
+    padding: 200px 0 250px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+.hero h1 {
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.hero h4 {
+    color: white;
+}
+
+* , *:before, *:after {
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    -ms-box-sizing: border-box;
+}
+
+/* About us */
+.about-us {
+    margin: 40px 0;
+}
+.about-us .container.flex-responsive {
+    justify-content: space-between;
+}
+.about-us_right span:hover {
+    cursor: pointer;
+}
+.about-us_right span {
+    text-decoration: underline;
+}
+p {
+    margin: 20px 0;
+}
+.about-us_right .links {
+    margin-top: 30px;
+    background-color: var(--primaryDark);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.about-us_right .links img {
+    height: 100%;
+}
+.about-us_left {
+    width: 60%;
+}
+.about-us_right {
+    width: 30%;
+}
+.about-us_right button {
+    width: 100%;
+}
+
+.about-us_right a.btn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+}

@@ -1,0 +1,203 @@
+@media (max-width: 1240px) {
+    .punet .container:last-of-type {
+        width: auto;
+    }
+    .owl-carousel {
+        width: auto;
+    }
+    .shpallje-articles {
+        justify-content: center;
+    }
+    footer .container {
+        justify-content: space-between !important;
+    }
+}
+
+@media (max-width: 980px) {
+    .kerkesat-options {
+        flex-direction: column;
+        height: 100%;
+    }
+    .kerkesat-section {
+        text-align: center;
+        width: 100%;
+    }
+    .kerkesat-section h2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 886px) {
+    .about-us_left {
+        width: 100%;
+        text-align: left;
+    }
+    .about-us_right {
+        width: 100%;
+    }
+    .hero-upper .navbar-buttons {
+        display: block;
+        width: 100%;
+    }
+    .hero-upper .navbar-buttons button {
+        width: 100%;
+    }
+    .hero-upper .navbar-buttons button:first-of-type {
+        border: 1px solid var(--secondaryLight);
+        margin: 20px 0;
+    }
+    .menu-wrap {
+        display: block;
+    }
+    .navbar-links, .navbar-buttons {
+        display: none;    
+    }
+    .flex-responsive {
+        flex-direction: column;
+        width: 100%;
+    }
+    .pse-left_feature p {
+        font-size: 1.5rem !important;
+    }
+    .section_arrows {
+        display: none;
+    }
+    p {
+        font-size: 1.2rem !important;
+    }
+    h1 {
+        font-size: 4rem !important;
+    }
+    h2 {
+        font-size: 3rem !important;
+        line-height: 135%;
+    }
+    h3 {
+        font-size: 2rem !important;
+    }
+    .container {
+        flex-direction: column !important;
+        text-align: center;
+        align-items: center
+    }
+    .hero-left {
+        width: 90%;
+    }
+    .hero-right {
+        width: 80%;
+    }
+    .hero-right .flex {
+        justify-content: center;
+    }
+    .section-introduction {
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .line {
+        margin: 15px 0;
+    }
+    .pse-section .left {
+        margin: 20px 0;
+        width: 100%;
+    }
+    .pse-section .right .flex {
+        justify-content: center;
+    }
+    .pse-section .right {
+        text-align: center;
+        width: 100%;   
+        padding: 100px 20px;
+    }
+    .pse-section {
+        margin-top: 50px;
+    }
+    .pse-section .container {
+        flex-direction: column-reverse !important;
+    }
+    .space-between {
+        justify-content: unset;
+    }
+    .footer-left, footer .container div:first-of-type {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .kerkesat-options .left {
+        width: 100%;
+    }
+    .hero-search {
+        width: 100%;
+        padding: 30px;
+    }
+    .pse-section .flex {
+        margin-bottom: 0 !important;
+        flex-direction: column;
+    }
+    .partneret {
+        flex-direction: column;
+    }
+    .partneret a {
+        padding: 30px 0;
+    }
+    .pse-left_feature {
+        margin: 20px 0;
+    }
+    .punet {
+        margin-bottom: 10px;
+    }
+    .footer-right {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;    
+    }
+    .footer-right .flex {
+        margin: 0 auto;
+        width: 100% !important;
+        justify-content: space-evenly !important;
+    }
+}
+
+@media (max-width: 1111px) {
+    .form-section .container {
+        position: unset;
+    }
+    .form-section_left {
+        width: 100%;
+    }
+    .form-section_left--item {
+        justify-content: center;
+    }
+    .form-section_right {
+        width: 100%;
+    }
+    form .flex-responsive div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .form-section_right form .flex-responsive {
+        margin: 0;
+    }
+    .hero-content {
+        width: 100%;
+    }
+    * , *:before, *:after {
+        box-sizing: border-box; 
+        -moz-box-sizing: border-box; 
+        -webkit-box-sizing: border-box; 
+        -ms-box-sizing: border-box;
+    }
+}
+
+@media (max-width: 500px) {
+    .shpallje-articles_article {
+        width: 100% !important;
+    }
+}
+
+.owl-item {
+    display: flex;
+    justify-content: center;
+}
